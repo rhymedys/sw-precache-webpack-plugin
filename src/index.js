@@ -1,8 +1,9 @@
-import path from 'path';
-import url from 'url';
-import swPrecache from 'cc-sw-precache';
-import UglifyJS from 'uglify-es';
-import {format} from 'util';
+var path = require('path')
+var url = require('url')
+var swPrecache = require('cc-sw-precache')
+var UglifyJS = require('uglify-es')
+var util = require('util')
+var format=util.format
 
 const FILEPATH_WARNING = 'sw-prechache-webpack-plugin [filepath]: You are using a custom path for your service worker, this may prevent the service worker from working correctly if it is not available in the same path as your application.';
 const FORCEDELETE_WARNING = 'sw-prechache-webpack-plugin [forceDelete]: You are specifying the option forceDelete. This was removed in v0.10. It should not affect your build but should no longer be required.';

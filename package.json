@@ -3,13 +3,6 @@
   "version": "0.0.1",
   "description": "Webpack plugin for using service workers",
   "main": "src/index.js",
-  "scripts": {
-    "prepare": "make build",
-    "version": "make changelog && git add -p CHANGELOG.md && git checkout CHANGELOG.md",
-    "test:unit": "make unit_test",
-    "test:integration": "make integration_test",
-    "test": "make test"
-  },
   "engines": {
     "node": ">=4.0.0"
   },
