@@ -1,6 +1,7 @@
 {
   "name": "cc-sw-precache-webpack-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "tag":"v0.11.4.2",
   "description": "Webpack plugin for using service workers",
   "main": "src/index.js",
   "engines": {
