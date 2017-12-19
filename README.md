@@ -8,14 +8,14 @@ __`SWPrecacheWebpackPlugin`__ is a [webpack][webpack] plugin for using [service 
 
 ## Install
 ```bash
-npm install --save-dev sw-precache-webpack-plugin
+npm install --cc-sw-precache-webpack-plugin
 ```
 
 ## Basic Usage
 A simple configuration example that will work well in most production environments. Based on the configuration used in [create-react-app].
 ```javascript
 var path = require('path');
-var SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
+var SWPrecacheWebpackPlugin = require('cc-sw-precache-webpack-plugin');
 
 const PUBLIC_PATH = 'https://www.my-project-name.com/';  // webpack needs the trailing slash for output.publicPath
 
@@ -127,7 +127,7 @@ If you have multiple bundles outputted by webpack, you can create a service work
 /**
  * @module {Object} webpack.config
  */
-const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
+const SWPrecacheWebpackPlugin = require('cc-sw-precache-webpack-plugin');
 
 /** @constant {Object} Application entry points and bundle names */
 const APPS = {

@@ -1,6 +1,6 @@
 import path from 'path';
 import url from 'url';
-import swPrecache from 'sw-precache';
+import swPrecache from 'cc-sw-precache';
 import UglifyJS from 'uglify-es';
 import {format} from 'util';
 
